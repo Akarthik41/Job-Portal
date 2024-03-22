@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/form.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="hcontainer">
+            <div class="hcontainer1">
+                <div class="hcontpart1">
+                    <h1>Job Portal</h1>
+                </div>
+                <div class="hcontpart2">
+                    <img src="./images/logo.png" alt="logo" width="80" height="80">
+                </div>
+            </div>
+    </header>
+    <main>
+        <form>
+            <div class="form-container">
+                <div class="form-content">
+                    <div class="data-container">
+                        <label for="fname">First Name</label>
+                        <div class="input-container">
+                            <input type="text" id="fname" name="fname" placeholder="Enter First Name">
+                        </div>
+                    </div>
+                    <div class="data-container">
+                        <label for="lname">Last Name</label>
+                        <div class="input-container">
+                            <input type="text" id="lname" name="lname" placeholder="Enter Last Name">
+                        </div>
+                    </div>
+                    <div class="data-container">
+                        <label for="dob">Date of Birth</label>
+                        <div class="input-container">
+                            <input type="date" id="dob" name="dob" placeholder="Enter Date of Birth">
+                        </div>
+                    </div>
+                    <div class="data-container">
+                        <div class="gh">
+                            <label for="gender">Gender</label>
+                        </div>
+                        <div class="data-gc">
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label>
+                            <input type="radio" id="other" name="gender" value="other">
+                            <label for="other">Other</label>
+                        </div>
+                    </div>
+                    <div class="data-container">
+                        <label for="email">Email</label>
+                        <div class="input-container">
+                            <input type="text" id="email" name="email" placeholder="Enter Email">
+                        </div>
+                    </div>
+                    <div class="data-container">
+                        <label for="college">College</label>
+                        <div class="input-container">
+                            <input type="text" id="college" name="college" placeholder="Enter College">
+                        </div>
+                    </div>
+                    <div class="data-container">
+                        <label for="jobrole">Job role</label>
+                        <div class="input-container">
+                            <select id="jobrole" name="jobrole">
+                                <option value="" selected>Select Job role</option>
+                                <option value="telecaller">Tele Caller</option>
+                                <option value="Web Developer">Web Developer</option>
+                                <option value="Data Scientist">Data Scientist</option>
+                                <option value="Data Analyst">Data Analyst</option>
+                                <option value="hr">HR</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="sub-container">
+                        <input type="button" id="bt" value="Register">
+                        <p>OR</p>
+                        <a href="./login.html"><input type="button" id="bt1" value="Login"></a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="fcontainer">
+            <div class="fpart1">
+                <div>
+                    <img src="./images/logo.png" alt="logo" width="50" height="50">
+                </div>
+                <div>
+                    <address>No: 30,T.H road,<br>
+                        Washermenpet,<br>
+                        chennai-21.
+                    </address>
+                </div>
+            </div>
+            <div class="fpart2">
+                <div class="fpart2-1">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                </div>
+                <div class="fpart2-2">
+                    <a href="https://whytap.in/">Why Tap</a>
+                </div>
+                <div class="fpart2-3">
+                    <a href="https://whytap.in/#lepopup-Enquiry-Popup">Email Subscribe</a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

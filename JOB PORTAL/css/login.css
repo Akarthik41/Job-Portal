@@ -1,0 +1,130 @@
+body
+{
+    background-image: url("../images/blueshadebg.jpg");
+    /* background-color: aliceblue; */
+}
+
+.bcontainer
+{  
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 20%;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 25px;
+}
+.bcontent1
+{   
+    width: 100%;
+    margin-bottom: 10%;
+    padding-top: 20px;
+    padding-left: 20PX;
+}
+.bcontent1 a{
+  text-decoration: none;
+  display: flex;
+  padding-top: 10%;
+}
+.button1
+{
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 25% 20%;
+  text-align: center;
+  justify-content:space-between;
+}
+
+.button1 a
+{  
+    
+    text-decoration: none;
+    background-color: #5F5D9C;
+    color: white;
+    padding: 5px 15px; 
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+
+.bcontent2
+{   
+    width: 100%;
+    padding: 20px;
+}
+#sub {
+    margin-top: 20px;
+    background-color: #04AA6D; 
+    border:none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 15px;
+  }
+
+
+  #sub1 {
+    margin-top: 20px;
+    margin-left: 10%;
+    background-color: #418ef2; 
+    border:none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 15px;
+  }
+#sub:hover
+{
+    background-color: blue;
+}
+#sub1:hover
+{
+    background-color: #299a12;
+}
+.dispinput
+{
+    font-weight: 600;
+}
+#txtemail
+{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  transition: 0.5s;
+  outline: none;
+}
+#txtemail:focus
+{   border: none;
+    transition: 0.5s;
+    border: 3px solid #3b80ee;
+}
+
+#txtpass
+{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  transition: 0.5s;
+  outline: none;
+}
+
+#txtpass:focus
+{   border: none;
+    transition: 0.5s;
+    border: 3px solid #3b80ee;
+}
+
+  .fcontainer p
+  {
+    margin-top: 20px;
+    text-align: center;
+  }

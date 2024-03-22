@@ -1,0 +1,157 @@
+body{
+    min-width: 40%;
+    max-width: 100%;
+}
+.hcontainer
+{
+    position: sticky;
+}
+.hcontainer1{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+.hcontainer a{
+    font-weight: 600;
+}
+
+header img{
+    border-radius: 50%;
+}
+.hcontpart1{
+    display: flex;
+    justify-content: end;
+    
+}
+.hcontpart2{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+main{
+    /* background-color: #2D9596; */
+    /* background-image: url(../images/); */
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.form-container
+{
+    display: flex;
+    justify-content: center;
+}
+.form-content
+{
+    width: 40%;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.data-container{
+    display: grid;
+    grid-template-columns: 30% 60%;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    font-size: medium;
+    /* font-weight: 200; */
+    /* font-family:"Roboto", sans-serif; */
+}
+label
+{
+    font-size: large;
+    font-weight:900;
+}
+input[type=text],select,input[type=date] {
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 5px;
+
+}
+input[type=text]:focus
+{   border: none;
+    transition: 0.5s;
+    border: 3px solid #3b80ee;
+}
+#bt{
+    background-color: #606d6d;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 10px;
+    margin-left: 40%;
+    border-radius: 10px;
+}
+#bt:hover {
+    background-color: #5f2a5a;
+    color: white;
+    transition-duration: 1s;
+  }
+
+.sub-container p
+{
+    text-align: center;
+    font-size: medium;
+    font-weight: 600;
+    color: #5f2a5a;
+}
+
+  #bt1{
+    background-color: #2D9596;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 43%;
+    border-radius: 10px;
+}
+#bt1:hover {
+    background-color: #565857;
+    color: white;
+    transition-duration: 1s;
+  }
+  
+
+footer{
+    padding-top: 5px;
+   padding-bottom: 5px;
+   bottom: 0;
+   width: 100%;
+   background-color: #9AD0C2;
+}
+.fpart1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.fpart1 img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.fpart2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+}
+.fpart2-1 a{
+    margin-left: 10px;
+}
+.fpart2-3 a{
+    background-color: brown;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 5px;
+}

@@ -1,0 +1,103 @@
+body{
+    min-width: 40%;
+    max-width: 100%;
+}
+.hcontainer
+{
+    position: sticky;
+}
+.hcontainer1{
+    display: flex;
+    justify-content: center;
+}
+.hcontainer1 h1{
+    margin-top: 25px;
+}
+#logo{
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.hcontainer a{
+    font-weight: 600;
+}
+
+header img{
+    border-radius: 50%;
+}
+/* .hcontpart1{
+    display: flex;
+    justify-content: end;
+    
+} */
+.hcontpart2{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.bcontainer
+{
+    display: grid;
+    grid-template-columns: 35% 55%;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 95%;
+}
+
+.bcontent1
+{
+    max-height: 900px;
+    overflow-x: scroll;
+}
+.bcontent1_cont
+{
+    margin-bottom: 25px
+}
+
+
+
+.bcontent2
+{
+    max-height: 900px;
+    overflow-x: scroll;
+    padding: 0 5%;
+    margin:0 10px;
+    border: 2px double #e3f2fd;
+
+}
+
+.bcontent1_cont
+{
+ margin: 15px 30px;   
+}
+#welmes
+{
+    text-align: center;
+    
+}
+#welmes img
+{
+    width: 100%;
+}
+
+
+.bcontent1_cont:hover
+{
+    transform: scale(1.1);
+    transition: 0.8s;
+    background-color: blueviolet;
+    
+
+}
+
+
+.bcontent2_cont
+{
+ margin: 15px 30px;   
+}

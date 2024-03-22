@@ -1,0 +1,76 @@
+
+body{
+    min-width: 40%;
+    max-width: 100%;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.hcontainer{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    background-color: #e3f2fd;
+    
+}
+.hcontpart1{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;   
+    width: 100%;
+    
+}
+header img{
+    border-radius: 80%;
+}
+
+
+.hcontpart2 a
+{
+    text-decoration: none;
+    float: right;
+    display: block;
+    color: #5F5D9C;
+    font-size: larger;
+    font-weight: 700;
+    padding: 20px ;
+    text-align: center;
+    
+}
+.hcontpart2 a:hover
+{
+    background-color: #5F5D9C;
+    color: white;
+}
+
+.hcontpart2 .icon 
+{
+    display: none;
+}
+
+
+
+/* try */
+
+@media screen and (max-width: 1300px) 
+{
+   .hcontpart2 a:not(:first-child) {display: none;}
+   .hcontpart2 a.icon 
+   {
+     float: right;
+     display: block;
+   }
+}
+@media screen and (max-width: 1300px) {
+   .hcontpart2.responsive {position:relative;}
+   .hcontpart2.responsive a.icon {
+     position: absolute;
+     right: 0;
+     top: 0;
+   }
+   .hcontpart2.responsive a {
+       float: none;
+       display: block;
+       text-align: left;
+     }
+   }

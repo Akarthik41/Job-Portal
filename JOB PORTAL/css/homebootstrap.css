@@ -1,0 +1,107 @@
+/* .hcontainer{
+    background-color: #265073;
+} */
+
+.hcontainer1{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+    opacity: 0.8;
+    /* color: azure; */
+    border-radius: 5px;
+}
+
+header img{
+    border-radius: 50%;
+}
+.hcontpart1{
+    display: flex;
+    justify-content: end;
+    
+}
+.hcontpart2{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.hcontainer2{
+    display: flex;
+    justify-content:end;
+}
+
+.hcontainer2 a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+.workpart{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-evenly;
+}
+.works h2{
+    text-align: center;
+    font-size:xx-large;
+    color: #265073;
+}
+.works p{
+    text-wrap: wrap;
+}
+.work1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.work2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.work3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.cntr{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+footer{
+    /* position: fixed; */
+    padding-top: 5px;
+   padding-bottom: 5px;
+   bottom: 0;
+   width: 100%;
+   background-color: #9AD0C2;
+}
+.fpart1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.fpart1 img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.fpart2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fpart2-1 a{
+    text-decoration: none;
+}
+.fpart2-2 a{
+    text-decoration: none;
+}
+.fpart2-3 a{
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 5px;
+}

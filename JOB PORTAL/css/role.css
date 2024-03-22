@@ -1,0 +1,125 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+header{
+    margin-top: 0;
+
+}
+nav
+{
+    padding: 20px 0;
+    background-color: #26868e;
+    text-align: end;
+}
+
+nav a
+{   
+    font-size: medium;
+    text-decoration: none;
+    margin-right: 20px;
+    padding:15px 15px ;
+    color: black;
+}
+
+nav a:hover
+{
+    /* padding: 15px 15px; */
+    color: white;
+    background-color:#203057 ;
+}
+
+
+
+
+.hcontent{
+    display: flex;
+    justify-content: center;
+}
+.hcontent h1{
+    margin-top: 25px;
+}
+#logo{
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+main{
+    margin-left: 40px ;
+}
+.bcontainer{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin: 2% 3%;
+}
+
+.bcontainer-part1
+{
+    margin-right: 10px ;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.bcontainer-part2 img
+{
+    margin-top: 20%;
+width: -webkit-fill-available;
+}
+
+.telecaller-roledetails p{
+    margin-top: 10px;
+}
+.bcontainer-part1 h2{
+    background-color: #5F5D9C;
+    color: white;
+    width: fit-content;
+    margin-top: 10%;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+footer{
+    padding-top: 5px;
+   padding-bottom: 5px;
+   bottom: 0;
+   width: 100%;
+   background-color: #9AD0C2;
+}
+.fpart1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.fpart1 img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.fpart2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+}
+.fpart2-1 a{
+    margin-left: 10px;
+}
+.fpart2-3 a{
+    background-color: brown;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
